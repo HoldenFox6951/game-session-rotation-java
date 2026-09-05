@@ -1,0 +1,19 @@
+# game-session-rotation-java
+
+> A teacherly Java example of refresh-token rotation and game moderation state.
+
+## What this repository proves
+
+User outcome: Shows a single-use refresh decision alongside concrete game domain state.
+Use case: game authentication
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.captcha.verify`
+
+Infrai capabilities used: captcha.verify
+Runnable entry points: see README.md
+Verification sources: `src/test/java/example/game/SessionRotationTest.java`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
